@@ -31,7 +31,7 @@ nav ul {
     color: var(--stone);
 }
 
-/* Consolidated Hero Section */
+/* Consolidated Hero Section with homepage.jpg */
 .hero {
     height: 80vh;
     display: flex;
@@ -40,13 +40,13 @@ nav ul {
     align-items: center;
     text-align: center;
     
-    /* Background Image Settings */
-    background-image: url('image_489e9d.jpg');
+    /* Background Image using homepage.jpg */
+    background-image: url('homepage.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
-    /* Overlay for readability */
+    /* Dark overlay for text contrast */
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
