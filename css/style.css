@@ -41,7 +41,7 @@ nav ul {
     text-align: center;
     
     /* Background Image using homepage.jpg */
-    background-image: url('homepage.jpg');
+    background-image: url('images/homepage.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
