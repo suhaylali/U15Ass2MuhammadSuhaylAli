@@ -1,7 +1,74 @@
-body{
-    background-color: black;
-    color: white;
-    font-family: Arial,sans-serif;
-    padding: 20px;
+:root {
+    --onyx: #1a1a1a;
+    --stone: #c5b3a3;
+    --gold: #d4af37;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--onyx);
+    color: var(--white);
+    font-family: 'Bodoni MT', serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border-bottom: 1px solid var(--stone);
+}
+
+.logo {
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    color: var(--stone);
+}
+
+/* Consolidated Hero Section */
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
+    /* Background Image Settings */
+    background-image: url('image_489e9d.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Overlay for readability */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.brand-name {
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    color: var(--stone);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    color: var(--white);
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: var(--stone);
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
 }
