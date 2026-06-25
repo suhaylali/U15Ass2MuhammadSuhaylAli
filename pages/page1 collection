@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOVERE | Curated Collection</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav>
+    <div class="nav-left">
+        <a href="#">HOME</a>
+        <a href="#">PRESTIGE</a>
+        <a href="#">CHAMPAGNE GOLD</a>
+    </div>
+
+```
+<div class="logo">
+    <span>N</span>
+    <h1>NOVERE</h1>
+</div>
+
+<div class="nav-right">
+    <a href="#">ABOUT US</a>
+    <a href="#">BLOG</a>
+    <a href="#">CONTACT</a>
+</div>
+```
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+```
+<div class="overlay">
+
+    <h1>OUR CURATED COLLECTION</h1>
+
+    <p>
+        "WE DON'T JUST SELL CARS. WE CURATE EXPERIENCES."
+    </p>
+
+</div>
+```
+
+</section>
+
+<!-- COLLECTION -->
+
+<section class="collection">
+
+<div class="cars">
+
+```
+<!-- CARD 1 -->
+
+<div class="car-card">
+
+    <img src="images/astonmartin.jpg" alt="Aston Martin">
+
+    <div class="info">
+        <h2>Aston Martin DB12</h2>
+        <span>Onyx Black</span>
+
+        <p><strong>Year:</strong> 2023</p>
+        <p><strong>Mileage:</strong> 400ml</p>
+        <p><strong>Price:</strong> £125,000</p>
+        <p><strong>Interior:</strong> Dhia</p>
+    </div>
+
+</div>
+
+<!-- CARD 2 -->
+
+<div class="car-card">
+
+    <img src="images/porsche.jpg" alt="Porsche">
+
+    <div class="info">
+        <h2>Porsche 911 GT3</h2>
+        <span>Pebble Grey</span>
+
+        <p><strong>Year:</strong> 2023</p>
+        <p><strong>Mileage:</strong> 500ml</p>
+        <p><strong>Price:</strong> £140,000</p>
+        <p><strong>Interior:</strong> 2'ttero</p>
+    </div>
+
+</div>
+
+<!-- CARD 3 -->
+
+<div class="car-card">
+
+    <img src="images/maybach.jpg" alt="Maybach">
+
+    <div class="info">
+        <h2>Mercedes-Maybach S-Class</h2>
+        <span>Obsidian Black</span>
+
+        <p><strong>Year:</strong> 2023</p>
+        <p><strong>Mileage:</strong> 200ml</p>
+        <p><strong>Price:</strong> £195,000</p>
+        <p><strong>Interior:</strong> Onyx</p>
+    </div>
+
+</div>
+
+<!-- CARD 4 -->
+
+<div class="car-card">
+
+    <img src="images/ferrari.jpg" alt="Ferrari">
+
+    <div class="info">
+        <h2>Ferrari Dino 246 GT</h2>
+        <span>Rosso Corsa Red</span>
+
+        <p><strong>Year:</strong> 2023</p>
+        <p><strong>Mileage:</strong> 300ml</p>
+        <p><strong>Price:</strong> £280,000</p>
+        <p><strong>Interior:</strong> 3arman</p>
+    </div>
+
+</div>
+```
+
+</div>
+
+<!-- SIDE PANEL -->
+
+<div class="featured">
+
+```
+<h3>FEATURED LISTING</h3>
+
+<div class="featured-box">
+
+    <h2>N</h2>
+
+    <p>CURATION IN FOCUS</p>
+
+</div>
+```
+
+</div>
+
+</section>
+
+<!-- FOOTER ICONS -->
+
+<footer>
+
+<div class="footer-item">
+<i class="fa-regular fa-gem"></i>
+<p>QUALITY</p>
+</div>
+
+<div class="footer-item">
+<i class="fa-regular fa-crown"></i>
+<p>PRESTIGE</p>
+</div>
+
+<div class="footer-item">
+<i class="fa-regular fa-user"></i>
+<p>TRUST</p>
+</div>
+
+<div class="footer-item">
+<i class="fa-regular fa-star"></i>
+<p>EXCELLENCE</p>
+</div>
+
+</footer>
+
+</body>
+</html>
+
