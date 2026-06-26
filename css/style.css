@@ -58,6 +58,7 @@ nav a {
 }
 
 /* COLLECTION PAGE GRID */
+
 .collection-page {
     max-width: 1200px;
     margin: 2rem auto;
@@ -66,7 +67,7 @@ nav a {
 
 .car-grid {
     display: grid;
-    /* This automatically creates as many columns as fit the screen */
+    /* Automatically creates as many columns as fit the available width */
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
 }
@@ -75,11 +76,13 @@ nav a {
     background-color: #222;
     padding: 20px;
     text-align: center;
-    border: 1px solid var(--stone);
+    border: 1px solid var(--stone, #999); /* Fallback if --stone isn't defined */
+    box-sizing: border-box;
 }
 
 .car-card img {
+    display: block;
+    width: 100%;
     max-width: 100%;
     height: auto;
-    display: block;
 }
