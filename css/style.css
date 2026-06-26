@@ -4,48 +4,39 @@
     --gold: #d4af37;
     --white: #ffffff;
 }
-
-* { box-sizing: border-box; }
-
 body {
     background-color: var(--onyx);
     color: var(--white);
     font-family: 'Bodoni MT', serif;
     margin: 0;
+
+    background-image: url("../images/homepage.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
 
-/* NAVIGATION - Stays consistent across all pages */
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 2rem;
     border-bottom: 1px solid var(--stone);
 }
 
+.logo {
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+
 nav ul {
-    list-style: none;
     display: flex;
-    gap: 30px;
-    padding: 0;
-    margin: 0;
+    list-style: none;
+    gap: 2rem;
+    color: var(--stone);
 }
 
-nav a {
-    text-decoration: none;
-    color: var(--white);
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-}
-
-/* HOMEPAGE ONLY STYLING */
-.home-page {
-    background-image: url("../images/homepage.png");
-    background-size: cover;
-    background-position: center;
-}
-
+/* Consolidated Hero Section with homepage.jpg */
 .hero {
     height: 80vh;
     display: flex;
@@ -53,36 +44,51 @@ nav a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+    /* Background Image using homepage.jpg */
+    background-image: url('images/homepage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Dark overlay for text contrast */
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
 
-/* COLLECTION PAGE GRID */
-
-.collection-page {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 20px;
+.brand-name {
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    color: var(--stone);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
 }
 
-.car-grid {
-    display: grid;
-    /* Automatically creates as many columns as fit the available width */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
+.hero h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    color: var(--white);
+    margin: 0;
 }
 
-.car-card {
-    background-color: #222;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid var(--stone, #999); /* Fallback if --stone isn't defined */
-    box-sizing: border-box;
+.hero p {
+    font-size: 1.1rem;
+    color: var(--stone);
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
 }
 
-.car-card img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+nav a {
+    text-decoration: none;
+    color: white; /* or black depending on your design */
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
 }
